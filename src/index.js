@@ -27,6 +27,6 @@ const onConnection = (socket)=>{
 io.on('connection',onConnection);
 
 
-httpServer.listen(3001, function(){
+httpServer.listen(process.env.PORT || 3000, function(){
     console.log('listening on *:3001');
  });
