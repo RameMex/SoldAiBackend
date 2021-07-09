@@ -3,7 +3,7 @@ const statsList = ['HP', 'Ataque', 'Defensa', 'Ataque Especial', 'Defensa Especi
 const topics = {
     estadisticas:'Estadisticas',
     habilidades: 'Habilidades',
-    movimientos: ' Movimientos',
+    movimientos: 'Movimientos',
     peso: 'Peso',
     altura: 'Altura',
     tipos:'Tipos' 
